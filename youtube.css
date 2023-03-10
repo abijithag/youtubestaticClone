@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.material-icons{
+    color: rgb(96, 96, 96);
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    padding: 15px;
+}
+.header-left{
+    display: flex;
+    align-items: center;
+}
+.header-left img{
+    width: 100px;
+    margin-left: 15px;
+
+}
+.header i{
+    padding: 0px 7px;
+    cursor: pointer;
+}
+.header-mid form{
+    border: 1px solid #ddd;
+    height: 35px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+
+
+}
+.header-mid input{
+    width: 500px;
+    padding: 10px;
+    margin: 0;
+    border-radius: 0;
+    border: none;
+}
+.header-mid button{
+    border: none;
+    border-radius: 0;
+    padding: 0px;
+    margin: 0;
+    height: 100%;
+
+}
+.main-side{
+    width: 16%;
+    padding: 5px;
+    height: 127vh;
+    float: left;
+}
+.side-half{
+    padding: 16px 20px;
+    align-items: center;
+    display: flex;
+    cursor: pointer;
+    
+    
+    
+}
+.side-half span{
+    margin-left: 15px;
+    
+}
+hr{
+    height: 1px;
+    background-color: #e5e5e5;
+    border: none;
+}
+
+
+
+.side-half:hover{
+    background: #e5e5e5;
+}
+
+.mid-box{
+    display: inline-block;
+    float: left;
+
+    
+}
+.img1{
+    width: 300px;
+    border-radius: 10px;
+    
+}
+.video{
+    display: grid;
+    grid-template-columns: 40px 1fr;
+    margin-bottom: 8px;
+}
+    
+
+.he{
+    font-family: Arial;
+    font-weight: bold;
+    font-size: 17px;
+    width: 300px;
+    
+
+
+}
+.user-logo{
+    margin-right: 4px;
+    
+}  
+.name{
+    margin-top: 8px;
+    font-family: Arial;
+    font-size: 14px;
+    
+    
+}
+.details{
+    margin-top: 6px;
+    font-family: Arial;
+    font-size: 14px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
